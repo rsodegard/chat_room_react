@@ -3,7 +3,7 @@ import styles from './styles';
 import { withStyles } from '@material-ui/core/styles';
 
 class ChatViewComponent extends React.Component {
-
+// scroll to the updated bottom
   componentDidUpdate = () => {
     const container = document.getElementById('chatview-container');
     if(container){
