@@ -21,7 +21,7 @@ class ChatViewComponent extends React.Component {
         <div>
           <div className={classes.chatHeader}>
             Your conversation with {chat.users.filter(_usr => _usr !== user)[0]}{' '}
-            | TitanChat
+            | CloudChat
           </div>
           <main id='chatview-container' className={classes.content}>
             {chat.messages.map((_msg, _index) => {
