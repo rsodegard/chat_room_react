@@ -11,15 +11,16 @@ import DashboardComponent from './dashboard/dashboard';
 const firebase = require('firebase');
 require('firebase/firestore');
 
+// project deleted for public repo - keys useless
 firebase.initializeApp({
-  apiKey: 'AIzaSyCHmH28Cz19-MYqhPF1u5C77-7GKQL0BHQ',
-  authDomain: 'chat-app-fba9d.firebaseapp.com',
-  databaseURL: 'https://chat-app-fba9d.firebaseio.com',
-  projectId: 'chat-app-fba9d',
-  storageBucket: 'chat-app-fba9d.appspot.com',
-  messagingSenderId: '708941549692',
-  appId: '1:708941549692:web:a21d1e70eae3ca2c1a79f9',
-  measurementId: 'G-7P7GKG3KT8'
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: ''
 });
 
 const routing = (
